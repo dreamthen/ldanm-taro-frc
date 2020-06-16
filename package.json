@@ -1,6 +1,6 @@
 {
   "name": "ldanm-taro-frc",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ldanm微信小程序功能组件(基于taro)",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,10 @@
     "build": "node ./scripts/build.js",
     "prepublish": "yarn run build"
   },
+  "files": [
+    "index.js",
+    "build"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -55,7 +59,6 @@
     "@tarojs/components": "2.2.7",
     "@tarojs/taro": "2.2.7",
     "classnames": "^2.2.6",
-    "core-js": "^3.6.5",
     "prop-types": "^15.7.2",
     "taro-ui": "^2.3.4"
   }
