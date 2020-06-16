@@ -1,5 +1,5 @@
-# hupu-mp
-hupu微信小程序-功能组件(基于taro)
+# ldanm-taro-frc
+拉旦木微信小程序-功能组件(基于taro)
 
 PS: 需要node > 8的node版本
 
