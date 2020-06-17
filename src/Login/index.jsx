@@ -64,8 +64,8 @@ class Login extends Component {
           data: {
             code
           },
-          success: (data, statusCode) => {
-            callBack(data, statusCode);
+          success: (data, header) => {
+            callBack(data, header);
           },
           fail: (res = {}) => {
             callBack(res);
