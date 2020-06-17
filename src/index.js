@@ -1,13 +1,13 @@
-import LdanmLogin from './Login';
-import LdanmUserInfo from './UserInfo';
-import LdanmNavBar from './NavBar';
-import LdanmTabBar from './TabBar';
-import LdanmImagePicker from './ImagePicker';
+import Login from './Login';
+import UserInfo from './UserInfo';
+import NavBar from './NavBar';
+import TabBar from './TabBar';
+import ImagePicker from './ImagePicker';
 
 export {
-  LdanmLogin,
-  LdanmUserInfo,
-  LdanmNavBar,
-  LdanmTabBar,
-  LdanmImagePicker
+  Login,
+  UserInfo,
+  NavBar,
+  TabBar,
+  ImagePicker
 };
