@@ -1,15 +1,8 @@
-import Login from './Login';
-import UserInfo from './UserInfo';
-import NavBar from './NavBar';
-import TabBar from './TabBar';
-import ImagePicker from './ImagePicker';
-import OutLogin from "./OutLogin";
+import Taro from '@tarojs/taro';
 
-module.exports = {
-    Login,
-    UserInfo,
-    NavBar,
-    TabBar,
-    ImagePicker,
-    OutLogin
-};
+export {default as Login} from './Login';
+export {default as UserInfo} from './UserInfo';
+export {default as NavBar} from './NavBar';
+export {default as TabBar} from './TabBar';
+export {default as ImagePicker} from './ImagePicker';
+export {default as OutLogin} from "./OutLogin";
