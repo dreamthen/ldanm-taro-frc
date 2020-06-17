@@ -1,6 +1,6 @@
 {
   "name": "ldanm-taro-frc",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "ldanm微信小程序功能组件(基于taro)",
   "main": "index.js",
   "scripts": {
@@ -55,11 +55,5 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },
-  "dependencies": {
-    "@tarojs/components": "2.2.7",
-    "@tarojs/taro": "2.2.7",
-    "classnames": "^2.2.6",
-    "prop-types": "^15.7.2",
-    "taro-ui": "^2.3.4"
-  }
+  "dependencies": {}
 }
