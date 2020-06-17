@@ -1,6 +1,6 @@
 {
   "name": "ldanm-taro-frc",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "ldanm微信小程序功能组件(基于taro)",
   "main": "index.js",
   "scripts": {
