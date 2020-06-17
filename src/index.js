@@ -4,10 +4,10 @@ import NavBar from './NavBar';
 import TabBar from './TabBar';
 import ImagePicker from './ImagePicker';
 
-export {
-  Login,
-  UserInfo,
-  NavBar,
-  TabBar,
-  ImagePicker
+module.exports = {
+    Login,
+    UserInfo,
+    NavBar,
+    TabBar,
+    ImagePicker
 };

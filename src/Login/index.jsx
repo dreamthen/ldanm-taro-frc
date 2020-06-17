@@ -33,57 +33,6 @@ class Login extends Component {
         done: PropTypes.func.isRequired
     };
 
-    /**
-     * 无组件登录
-     */
-    static login = (params = {}) => {
-        Login.outLoginHandler(params);
-    };
-
-    /**
-     * 无组件登录处理
-     */
-    static outLoginHandler = ({
-                                  url = '',
-                                  method = 'get',
-                                  header = {},
-                                  callBack = () => {
-                                  },
-                                  done = () => {
-                                  }
-                              }) => {
-        Taro.login({
-            success: ({code}) => {
-                Ldanm.request({
-                    url,
-                    method,
-                    header,
-                    data: {
-                        code
-                    },
-                    success: (data, header) => {
-                        callBack(data, header);
-                    },
-                    fail: (res = {}) => {
-                        callBack(res);
-                    },
-                    complete: (res = {}) => {
-                        done(res);
-                    }
-                });
-            },
-            fail: (res = {}) => {
-                Taro.showModal({
-                    title: '登录api错误',
-                    content: '检测您是否处在小程序环境下调用此api',
-                    showCancel: false
-                });
-            },
-            complete: (res = {}) => {
-            }
-        });
-    };
-
     componentDidMount() {
         const {canClick = false} = this.props;
         const {
