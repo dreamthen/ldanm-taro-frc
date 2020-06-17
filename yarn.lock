@@ -926,10 +926,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@tarojs/components@2.2.7":
-  version "2.2.7"
-  resolved "https://registry.npm.taobao.org/@tarojs/components/download/@tarojs/components-2.2.7.tgz?cache=0&sync_timestamp=1592219886921&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Fcomponents%2Fdownload%2F%40tarojs%2Fcomponents-2.2.7.tgz#01f778e913ac1c9a44469b4c5fdc59f217aaa6b2"
-  integrity sha1-Afd46ROsHJpERptMX9xZ8heqprI=
+"@tarojs/components@2.2.9":
+  version "2.2.9"
+  resolved "https://registry.npm.taobao.org/@tarojs/components/download/@tarojs/components-2.2.9.tgz?cache=0&sync_timestamp=1592324880165&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Fcomponents%2Fdownload%2F%40tarojs%2Fcomponents-2.2.9.tgz#832c6ea09ba1ac763363a7e82185ece61d990882"
+  integrity sha1-gyxuoJuhrHYzY6foIYXs5h2ZCII=
   dependencies:
     classnames "^2.2.5"
     intersection-observer "^0.7.0"
@@ -938,17 +938,17 @@
     swiper "4.4.2"
     weui "^1.1.2"
 
-"@tarojs/taro@2.2.7":
-  version "2.2.7"
-  resolved "https://registry.npm.taobao.org/@tarojs/taro/download/@tarojs/taro-2.2.7.tgz#a9b4b7efa6a188a496178644c6d3b283a8f85f4c"
-  integrity sha1-qbS376ahiKSWF4ZExtOyg6j4X0w=
+"@tarojs/taro@2.2.9":
+  version "2.2.9"
+  resolved "https://registry.npm.taobao.org/@tarojs/taro/download/@tarojs/taro-2.2.9.tgz?cache=0&sync_timestamp=1592324871988&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Ftaro%2Fdownload%2F%40tarojs%2Ftaro-2.2.9.tgz#b507dc3813c0c3c5ee5265aba183aa19247bc68f"
+  integrity sha1-tQfcOBPAw8XuUmWroYOqGSR7xo8=
   dependencies:
-    "@tarojs/utils" "^2.2.7"
+    "@tarojs/utils" "^2.2.9"
 
-"@tarojs/utils@^2.2.7":
-  version "2.2.8"
-  resolved "https://registry.npm.taobao.org/@tarojs/utils/download/@tarojs/utils-2.2.8.tgz#9911b9d2b619eba54db9ca4d0ab7eaf2ba509e53"
-  integrity sha1-mRG50rYZ66VNucpNCrfq8rpQnlM=
+"@tarojs/utils@^2.2.9":
+  version "2.2.9"
+  resolved "https://registry.npm.taobao.org/@tarojs/utils/download/@tarojs/utils-2.2.9.tgz?cache=0&sync_timestamp=1592323861746&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Futils%2Fdownload%2F%40tarojs%2Futils-2.2.9.tgz#8e5fcf573c45aea66243398290ab7e058fd8c050"
+  integrity sha1-jl/PVzxFrqZiQzmCkKt+BY/YwFA=
 
 "@types/json-schema@^7.0.4":
   version "7.0.5"
